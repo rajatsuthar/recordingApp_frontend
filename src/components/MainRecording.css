@@ -1,0 +1,82 @@
+.recording-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    
+  }
+  .img{
+    width: 250px;
+  }
+  .inner-div{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 30%;
+    margin-top: 15%;
+    
+    /* background-color: #d4e7d4; */
+    /* border: 0.5px solid rgb(174, 169, 169); */
+  }
+  .logout-div{
+    font-weight: 500;
+   
+    cursor: pointer;
+    
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 12px;
+    width: 100%;
+    /* background-color: #3498db; */
+   
+  }
+  .logout-div>a{
+    color: #f9fcf9;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+
+  
+  .confirm-button, .audio-button, .record-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .confirm-button {
+    border:1px solid #f9fcf9;
+    color: white;
+  }
+  
+  .audio-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .record-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .record-button.recording {
+    background-color: #e67e22;
+  }
+  
+  button:hover {
+    background-color: #1a1919;
+    color: white;
+  }
+
+  
